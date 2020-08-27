@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <title>Javascript on Steroids</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <h2>Rock Paper Scissors</h2>
+      <p>
+        This is a Rock Paper Scissors game. The game is played between the user
+        and a bot. The player has to click one of the three given choices -
+        Rock, Paper or Scissors. The bot also chooses an option. After the
+        options are chosen, the results display on the screen. Top object is the
+        players choice, bottom object is the bots choice and the middle message
+        is the result of the match. Click Reset to play again.
+      </p>
+      <button class="btn btn-primary" onclick="rpsGame(this)" id="Rock">
+        Rock
+      </button>
+      <button class="btn btn-primary" onclick="rpsGame(this)" id="Paper">
+        Paper
+      </button>
+      <button class="btn btn-primary" onclick="rpsGame(this)" id="Scissors">
+        Scissors
+      </button>
+      <div>
+        <h1></h1>
+      </div>
+      <div id="flex-box-rps-div"></div>
+      <div>
+        <button class="btn btn-danger" onclick="resetGame()">Reset</button>
+      </div>
+    </div>
+
+    <script src="Rock Paper Scissor.js"></script>
+  </body>
+</html>
